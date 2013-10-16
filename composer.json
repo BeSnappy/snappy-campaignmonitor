@@ -1,0 +1,21 @@
+{
+    "name": "snappy/campaignmonitor",
+    "description": "Campaign Monitor integration for Snappy.",
+    "authors": [
+        {
+            "name": "UserScape, Inc.",
+            "email": "it@userscape.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "snappy/app-support": "dev-master",
+        "campaignmonitor/createsend-php": "3.1.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,1 @@
+# Snappy Campaign Monitor Application
