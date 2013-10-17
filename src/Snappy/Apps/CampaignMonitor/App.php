@@ -17,7 +17,7 @@ class App extends BaseApp implements ContactCreatedHandler {
 	 *
 	 * @var string
 	 */
-	public $description = 'Add contacts to a Campaign Monitor list';
+	public $description = 'Automatically add contacts to a Campaign Monitor list';
 
 	/**
 	 * Any notes about this application
