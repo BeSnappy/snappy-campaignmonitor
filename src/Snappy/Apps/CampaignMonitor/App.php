@@ -57,8 +57,8 @@ class App extends BaseApp implements ContactCreatedHandler {
 	 * @var array
 	 */
 	public $settings = array(
-		array('name' => 'token', 'type' => 'text', 'help' => 'Enter your API Token'),
-		array('name' => 'list', 'type' => 'text', 'help' => 'Enter your Email List ID'),
+		array('name' => 'token', 'type' => 'text', 'help' => 'Enter your API Token', 'validate' => 'required'),
+		array('name' => 'list', 'type' => 'text', 'help' => 'Enter your Email List ID', 'validate' => 'required'),
 	);
 
 	/**
