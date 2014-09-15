@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "snappy/app-support": "dev-master",
+        "snappy/app-support": "~1.0",
         "campaignmonitor/createsend-php": "3.1.x"
     },
     "autoload": {
